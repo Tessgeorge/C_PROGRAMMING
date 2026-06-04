@@ -7,7 +7,7 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    // 2. The Loop (The Rolling Snowball)
+   
     for(i = 1; i <= n; i++) {
         fact = fact * i; 
     }
