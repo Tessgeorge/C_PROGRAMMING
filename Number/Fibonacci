@@ -2,17 +2,17 @@
 
 int main() {
     int n, i;
-    int fact = 1; // 1. Changed 'long long' to 'int'. Started at 1.
+    int fact = 1;
 
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    // 2. The Loop (The Rolling Snowball)
+    
     for(i = 1; i <= n; i++) {
         fact = fact * i; 
     }
 
-    printf("Factorial = %d", fact); // 3. Changed %lld to %d
+    printf("Factorial = %d", fact); 
 
     return 0;
 }
